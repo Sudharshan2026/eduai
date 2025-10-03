@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Badge } from "./ui/badge";
-import { Search, MessageCircle, HelpCircle } from "lucide-react";
+import { Search, MessageCircle, CircleHelp as HelpCircle } from "lucide-react";
 import { useState } from "react";
 
 export function FAQSection() {

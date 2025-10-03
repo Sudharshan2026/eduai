@@ -93,7 +93,7 @@ export function SocialProofSection() {
           <h2 className="text-3xl md:text-4xl mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold">
             Trusted by Learners Worldwide
           </h2>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-12">
+          <p className="text-lg text-gray-900 max-w-3xl mx-auto mb-12">
             Join thousands of students and educators who have transformed their learning experience with AI
           </p>
 
@@ -132,7 +132,7 @@ export function SocialProofSection() {
                   </div>
 
                   {/* Quote */}
-                  <blockquote className="text-sm text-gray-700 mb-4 italic">
+                  <blockquote className="text-sm text-gray-900 mb-4 italic">
                     "{testimonial.quote}"
                   </blockquote>
 
@@ -176,7 +176,7 @@ export function SocialProofSection() {
                   </div>
 
                   {/* Quote */}
-                  <blockquote className="text-gray-700 mb-6 leading-relaxed">
+                  <blockquote className="text-gray-900 mb-6 leading-relaxed">
                     "{testimonial.quote}"
                   </blockquote>
 

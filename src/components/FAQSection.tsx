@@ -103,8 +103,8 @@ export function FAQSection() {
           <h2 className="text-3xl md:text-4xl mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold">
             Frequently Asked Questions
           </h2>
-          <p className="text-lg text-gray-700 mb-8">
-            Everything you need to know about EduAI. Can't find the answer you're looking for? 
+          <p className="text-lg text-gray-900 mb-8">
+            Everything you need to know about EduAI. Can't find the answer you're looking for?
             Feel free to reach out to our support team.
           </p>
 
@@ -147,7 +147,7 @@ export function FAQSection() {
                     <span className="font-medium text-gray-900">{faq.question}</span>
                   </div>
                 </AccordionTrigger>
-                <AccordionContent className="px-6 pb-4 text-gray-700 leading-relaxed">
+                <AccordionContent className="px-6 pb-4 text-gray-900 leading-relaxed">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
@@ -184,7 +184,7 @@ export function FAQSection() {
           </div>
           
           <h3 className="text-xl font-semibold text-gray-900 mb-2">Still have questions?</h3>
-          <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
+          <p className="text-gray-900 mb-6 max-w-2xl mx-auto">
             Our friendly support team is here to help. Get in touch and we'll get back to you as soon as possible.
           </p>
           

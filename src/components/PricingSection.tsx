@@ -90,7 +90,7 @@ export function PricingSection() {
           <h2 className="text-3xl md:text-4xl mb-4 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent font-bold">
             Choose Your Learning Journey
           </h2>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
+          <p className="text-lg text-gray-900 max-w-3xl mx-auto mb-8">
             Start free and upgrade as you grow. All plans include our core AI tutoring features.
           </p>
 
@@ -183,7 +183,7 @@ export function PricingSection() {
                           <X className="w-5 h-5 text-gray-400 mt-0.5 flex-shrink-0" />
                         )}
                         <span className={`text-sm ${
-                          feature.included ? 'text-gray-700' : 'text-gray-400'
+                          feature.included ? 'text-gray-900' : 'text-gray-400'
                         }`}>
                           {feature.name}
                         </span>

@@ -85,7 +85,7 @@ export function HowItWorksSection() {
           <h2 className="text-3xl md:text-4xl mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold">
             How EduAI Works
           </h2>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-900 max-w-3xl mx-auto">
             Get started with AI-powered learning in just a few minutes. Our intelligent system adapts to your pace and style for maximum effectiveness.
           </p>
         </div>
@@ -113,7 +113,7 @@ export function HowItWorksSection() {
                     {step.title}
                   </h3>
                   
-                  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  <p className="text-lg text-gray-900 mb-6 leading-relaxed">
                     {step.description}
                   </p>
                   
@@ -123,7 +123,7 @@ export function HowItWorksSection() {
                         <div className={`w-6 h-6 bg-gradient-to-r ${step.color} rounded-full flex items-center justify-center flex-shrink-0`}>
                           <Zap className="w-3 h-3 text-white" />
                         </div>
-                        <span className="text-gray-700">{detail}</span>
+                        <span className="text-gray-900">{detail}</span>
                       </li>
                     ))}
                   </ul>
@@ -221,7 +221,7 @@ export function HowItWorksSection() {
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Ready to Start Your Learning Journey?
             </h3>
-            <p className="text-gray-700 mb-8">
+            <p className="text-gray-900 mb-8">
               Join thousands of students who have already transformed their learning experience with EduAI.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -36,7 +36,7 @@ export function TeacherFeaturesSection() {
           <h2 className="text-3xl md:text-4xl mb-4 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent font-bold">
             AI-Powered Teaching Tools
           </h2>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-900 max-w-3xl mx-auto">
             Intelligent insights and automated tools that help you focus on what matters most: teaching
           </p>
         </div>

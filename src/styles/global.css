@@ -347,3 +347,56 @@ button:focus-visible {
   color: transparent !important;
   -webkit-text-fill-color: transparent !important;
 }
+
+/* Fix for text appearing black in TeacherFeaturesSection */
+/* Ensure base text styles don't override colored text */
+h1[class*="text-"], h2[class*="text-"], h3[class*="text-"], 
+h4[class*="text-"], h5[class*="text-"], h6[class*="text-"], 
+p[class*="text-"], span[class*="text-"], div[class*="text-"], 
+button[class*="text-"], a[class*="text-"] {
+  color: inherit !important;
+}
+
+/* Override any potential conflicts from component libraries */
+.card h5, .card h6 {
+  color: inherit !important;
+}
+
+.card-content *, [data-slot="card-content"] * {
+  color: inherit !important;
+}
+
+/* Specific fixes for gray text colors that might appear black */
+[class*="text-gray-900"] {
+  color: rgb(17 24 39) !important;
+}
+
+[class*="text-gray-800"] {
+  color: rgb(31 41 55) !important;
+}
+
+[class*="text-gray-700"] {
+  color: rgb(55 65 81) !important;
+}
+
+/* Additional text color fixes for common issues */
+.text-white {
+  color: rgb(255 255 255) !important;
+}
+
+.text-black {
+  color: rgb(0 0 0) !important;
+}
+
+/* Specific fixes for your TeacherFeaturesSection */
+.bg-white .text-gray-900 {
+  color: rgb(17 24 39) !important;
+}
+
+.bg-white .text-gray-700 {
+  color: rgb(55 65 81) !important;
+}
+
+.bg-white .text-gray-800 {
+  color: rgb(31 41 55) !important;
+}
